@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'Profile_2.dart';
 
-class Profile_1 extends StatefulWidget {
+class Profile1 extends StatefulWidget {
   @override
-  _Profile_1State createState() => _Profile_1State();
+  _Profile1State createState() => _Profile1State();
 }
 
-class _Profile_1State extends State<Profile_1> {
+class _Profile1State extends State<Profile1> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -23,7 +23,7 @@ class _Profile_1State extends State<Profile_1> {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => Profile_2()),
+              MaterialPageRoute(builder: (context) => Profile2()),
             );
           },
         ),
